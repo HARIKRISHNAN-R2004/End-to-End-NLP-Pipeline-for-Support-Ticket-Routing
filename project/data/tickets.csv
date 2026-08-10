@@ -1,0 +1,121 @@
+subject,body,category
+Invoice not received,"I placed an order last week and was charged but never received an invoice or receipt. Can you resend the billing documents to my email?",billing
+Overcharged on subscription,"My monthly subscription is $9.99 but I was charged $19.99 this month. Please investigate and issue a refund for the difference.",billing
+Refund request,"I cancelled my plan within the 30-day trial period but was still charged the full annual fee. I need a complete refund.",billing
+Payment method update,"I need to update my credit card on file. The current card expired and I can't find where to change it in account settings.",billing
+Duplicate charge,"I see two identical charges of $49.99 on my bank statement from your company dated June 3rd. One of them must be a mistake.",billing
+Billing cycle question,"When does my billing cycle reset? I want to make sure I upgrade my plan at the right time to avoid being double-charged.",billing
+Discount code not applied,"I entered the promo code SAVE20 at checkout but my total didn't change. The discount was supposed to give me 20% off.",billing
+Tax on invoice incorrect,"The tax amount on invoice #4821 looks wrong. I'm in Oregon where there's no sales tax but I was charged 8%.",billing
+Cancel subscription billing,"I cancelled my subscription two months ago but I'm still being billed monthly. I need these charges reversed immediately.",billing
+Enterprise pricing inquiry,"We're a team of 50 and interested in your enterprise plan. Can you send over pricing details and volume discount options?",billing
+Free trial charge,"I signed up for a free trial and was told I wouldn't be charged. My card was billed $14.99 on the first day.",billing
+Currency conversion issue,"I'm based in the UK and being charged in USD. The currency conversion fees are adding up — can I switch to GBP billing?",billing
+Receipt for tax purposes,"I need all receipts from the past fiscal year for my company's tax filing. Can you export them as PDFs?",billing
+Payment failed,"My last payment failed and my account is about to be suspended. I've updated my card — can you retry the charge?",billing
+Downgrade plan billing,"I downgraded from Pro to Basic mid-cycle. Will I get a prorated refund for the unused days on the Pro plan?",billing
+Wire transfer payment,"We prefer to pay by wire transfer instead of credit card. Do you support bank transfers for annual plans?",billing
+Auto-renewal off,"Please turn off auto-renewal on my account. I don't want to be charged again when my current term ends.",billing
+Charge from unknown source,"There's a charge on my statement from your company but I don't remember signing up. Can you verify if this is legitimate?",billing
+Student discount,"I'm a university student. Do you offer any educational discounts? I can provide my .edu email for verification.",billing
+Split billing request,"Our department needs to split the invoice between two cost centers. Is it possible to issue two separate invoices?",billing
+Group plan billing,"We have 10 users on individual plans and want to consolidate into one group billing account. How do we migrate?",billing
+Billing address change,"I moved to a new address and need to update my billing information before the next invoice is generated.",billing
+Late payment fee,"I was charged a $25 late payment fee but I set up autopay months ago. The late payment wasn't my fault.",billing
+Quarterly billing option,"Do you offer a quarterly billing option? Monthly is too frequent and annual is too big a commitment upfront.",billing
+Invoice format request,"Can you send invoices in XML format instead of PDF? Our accounting system requires structured data imports.",billing
+Coupon expired,"I tried to use coupon code WELCOME50 but it says expired. The email I received says it's valid until end of month.",billing
+Pricing page confusing,"Your pricing page lists three tiers but doesn't clearly explain what's included in each. Can someone walk me through it?",billing
+Refund timeline,"I submitted a refund request five business days ago and haven't heard back. What's the typical processing time?",billing
+Charge after cancellation,"I deleted my account entirely last month and just got charged again. This shouldn't be possible.",billing
+Nonprofit discount,"We're a registered 501(c)(3) nonprofit. Do you have special pricing for charitable organizations?",billing
+App won't load,"The application keeps showing a white screen after I log in. I've tried clearing my cache and restarting my browser but nothing works.",technical
+Server error 500,"Every time I try to save a document I get a 500 Internal Server Error. This started happening about two hours ago.",technical
+Password reset broken,"The password reset link sends me to a page that says 'token expired' even when I click it within seconds of receiving the email.",technical
+Slow performance,"The dashboard takes over 30 seconds to load. It used to be instant. Other websites load fine so it's not my connection.",technical
+Mobile app crash,"Your mobile app crashes immediately after opening on my iPhone 15 running iOS 18. I've reinstalled it twice.",technical
+API rate limit,"I'm getting 429 Too Many Requests errors on your API even though I'm well under the documented rate limit of 1000 req/min.",technical
+Data export broken,"When I click Export to CSV the download starts but the file is empty — zero bytes. Tried in Chrome and Firefox.",technical
+Two-factor auth locked,"I lost my phone and can't receive 2FA codes. I'm completely locked out of my account and have a deadline today.",technical
+Integration not syncing,"The Slack integration stopped syncing notifications yesterday. I've disconnected and reconnected it but no change.",technical
+File upload fails,"I'm trying to upload a 15MB PDF and keep getting 'Upload failed: file too large' but your docs say the limit is 50MB.",technical
+Search not working,"The search bar returns zero results for terms I know exist in my documents. It was working fine last week.",technical
+Email notifications delayed,"I'm receiving email notifications 4-6 hours after the actual event. They used to arrive within minutes.",technical
+Browser compatibility,"Your application doesn't render correctly in Safari. All the sidebar menus overlap with the main content area.",technical
+SSO login failure,"Our company uses Okta for SSO and since your last update none of our team can log in. We get a SAML assertion error.",technical
+Webhook not firing,"I configured a webhook endpoint but it never receives any payloads. The URL is correct and the server is reachable.",technical
+Data loss after update,"After the latest app update my saved templates are gone. I had over 50 custom templates that I need recovered.",technical
+Dark mode broken,"Dark mode makes all text invisible — it's white text on a white background. Only affects the settings page.",technical
+Cannot connect database,"I'm trying to connect my PostgreSQL database but the connection test keeps timing out. My credentials are correct.",technical
+Print layout wrong,"When I print reports the page breaks cut tables in half and headers don't repeat. The print layout needs fixing.",technical
+Keyboard shortcuts disabled,"None of the keyboard shortcuts listed in your help docs actually work. Ctrl+S doesn't save and Ctrl+Z doesn't undo.",technical
+Account merge request,"I accidentally created two accounts with different emails. Can you merge them so I don't lose my data?",technical
+Broken link in app,"The 'Learn More' link in the onboarding wizard leads to a 404 page. Several other help links are also broken.",technical
+Calendar sync issue,"Google Calendar integration shows all events one hour off. I think there's a timezone handling bug.",technical
+Video call lag,"Video calls through the platform have extreme lag and audio cuts out every few seconds. My internet is 100 Mbps.",technical
+Drag and drop broken,"The drag-and-drop feature for reordering items stopped working after the Chrome update yesterday.",technical
+Notification preferences not saving,"I uncheck email notifications and click save but they revert back to checked when I reload the page.",technical
+Export PDF formatting,"Exported PDFs have overlapping text and missing images. The in-app preview looks fine but the PDF is garbled.",technical
+Cannot delete account,"The 'Delete Account' button is grayed out. I've cancelled my subscription and removed all data but still can't delete.",technical
+Multi-monitor display bug,"On a dual monitor setup the app window snaps to the wrong screen and can't be moved to the primary display.",technical
+Accessibility screen reader,"The app doesn't work with JAWS screen reader. Form labels are missing and navigation is impossible for blind users.",technical
+PTO request,"I'd like to request paid time off from August 15-22. I have 12 vacation days remaining. Who needs to approve this?",hr
+Benefits enrollment,"Open enrollment starts next month. Where can I find the comparison sheet for the health insurance plans available?",hr
+Payslip discrepancy,"My latest payslip shows fewer hours than I actually worked. I logged 45 hours but it only reflects 38.",hr
+Remote work policy,"What is the current remote work policy? I'd like to work from home two days a week starting next month.",hr
+Harassment complaint,"I need to report inappropriate behavior from a colleague. This is a sensitive matter and I'd like to speak with HR directly.",hr
+New hire onboarding,"I'm starting next Monday and haven't received any onboarding information yet — laptop setup or office access details.",hr
+Training request,"I'd like to attend a Python machine learning conference in September. Does the company cover training expenses?",hr
+Job title change,"My responsibilities have evolved significantly. I'd like to discuss updating my job title to reflect my current role.",hr
+Maternity leave policy,"I'm expecting in December and need to understand the maternity leave policy — duration and pay during leave.",hr
+Performance review schedule,"When are annual performance reviews happening this year? I want to prepare my self-assessment in advance.",hr
+Expense reimbursement,"I spent $350 on a hotel for a client meeting last week. What's the process for submitting expense reimbursements?",hr
+Relocation assistance,"I've been offered a transfer to the London office. Does the company provide relocation assistance or a moving allowance?",hr
+Emergency contact update,"I need to update my emergency contact information in the HR system. Where do I find that form?",hr
+Workplace injury report,"I slipped on a wet floor in the cafeteria and hurt my wrist. How do I file a workplace injury report?",hr
+Reference letter request,"I'm applying to graduate school and need a reference letter from my manager. What's the proper process?",hr
+Resignation process,"I've decided to resign. What's the required notice period and what steps do I need to follow?",hr
+Internship program,"Does the company offer summer internships? My university requires a placement and I'd love to intern here.",hr
+Salary review,"It's been two years since my last salary adjustment. I'd like to schedule a meeting to discuss compensation.",hr
+Diversity and inclusion,"Are there any employee resource groups or diversity initiatives I can participate in?",hr
+Parental leave for fathers,"I'm a new father. What paternity leave options are available? I've heard the policy recently changed.",hr
+Conflict with manager,"I'm having ongoing disagreements with my direct manager that are affecting my work. I need guidance on resolution.",hr
+Dress code question,"Does the office have a specific dress code? I'm transferring from a casual office and want to be prepared.",hr
+Company holiday schedule,"Can you share the holiday calendar for the rest of the year? I need to plan around office closures.",hr
+Health and wellness program,"I heard the company offers gym membership discounts. How do I sign up for the wellness program?",hr
+Letter of employment,"I'm applying for a mortgage and the bank requires a letter confirming my employment and salary. Can HR provide this?",hr
+Exit interview,"I'm leaving the company next Friday. Will there be an exit interview and what should I prepare?",hr
+Overtime policy,"I've been working 50+ hours per week for the past month. What's the policy on overtime compensation?",hr
+Visa sponsorship,"I'm on an H-1B visa expiring in March. Will the company sponsor my visa renewal?",hr
+Team building activities,"My team would like to organize a team-building event. Is there a budget allocated for team activities?",hr
+Bereavement leave,"I've had a death in my family and need to take bereavement leave. How many days am I entitled to?",hr
+Office WiFi down,"The WiFi in the main office hasn't been working all morning. Multiple people are affected and we can't access anything online.",general
+Parking pass request,"I need a parking pass for the office garage. Who do I contact to get one assigned?",general
+Office supplies,"We're running low on printer paper and whiteboard markers on the third floor. How do I request more supplies?",general
+Building access after hours,"I need to work late this Saturday. How do I get after-hours building access?",general
+Kitchen fridge cleanup,"The shared kitchen fridge hasn't been cleaned in weeks. Old food is accumulating. Can facilities address this?",general
+Meeting room booking,"How do I book the large conference room on the 5th floor? The calendar system seems to be down.",general
+AC not working,"The air conditioning in section B of the office has been off for two days. It's extremely uncomfortable.",general
+Lost and found,"I left my umbrella in the break room yesterday and it's gone now. Is there a lost and found anywhere?",general
+Desk assignment,"I'm returning to the office after remote work and need a desk assigned. Who handles seating arrangements?",general
+Mail delivery,"I had a personal package delivered to the office and it hasn't shown up. Where does incoming mail get sorted?",general
+Noise complaint,"The construction noise on the floor above us is making it impossible to concentrate or take calls.",general
+Office plant care,"The plants in our area are dying. Does facilities water them or are we responsible?",general
+Elevator out of service,"The elevator on the east side has been broken for a week. This is an accessibility issue for some employees.",general
+Visitor registration,"I have a client visiting next Tuesday. What's the process for registering external visitors?",general
+Cafeteria menu,"Does the office cafeteria have a weekly menu posted somewhere? I'd like to check for vegetarian options.",general
+Standing desk request,"I'd like a standing desk converter for ergonomic reasons. Does the company provide these?",general
+Office relocation info,"I heard our team is moving to the 4th floor next month. When will we get details about the move?",general
+Suggestion box,"Is there a way to submit anonymous feedback or suggestions about office improvements?",general
+Charity drive,"I'd like to organize a holiday charity drive in the office. Who do I need approval from?",general
+Company swag,"Is there leftover company merchandise from the last event? I missed it and would love a hoodie.",general
+Recycling bins,"There are no recycling bins on our floor. Can we get some placed near the kitchen and printer area?",general
+Fire drill schedule,"When is the next fire drill? I want to make sure my team knows the evacuation route.",general
+Guest WiFi password,"We have visitors today who need WiFi access. What's the current guest network password?",general
+Broken chair,"My office chair's armrest broke off. How do I request a replacement through facilities?",general
+Coffee machine broken,"The coffee machine in the 2nd floor kitchen has been out of order since Monday. Can it be repaired or replaced?",general
+Badge not working,"My access badge stopped working yesterday. I can't get through the turnstile without someone letting me in.",general
+Newsletter subscription,"How do I subscribe to the internal company newsletter? I think I was removed by mistake.",general
+Shared drive access,"I need access to the Marketing shared drive folder. My manager said to request it through IT or admin.",general
+Event space booking,"Can the rooftop terrace be booked for a team celebration? What's the reservation process?",general
+Feedback on new office layout,"The new open office layout is very distracting. Is there a channel to provide feedback on workspace design?",general
